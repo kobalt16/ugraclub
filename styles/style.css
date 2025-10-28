@@ -9,7 +9,7 @@
     --gutter: 30px;
     --side-small: 26;
     --side-big: 36;
-    --depth: 5000px;
+    --depth: 5500px;
     --transition: .75s cubic-bezier(.075, .5, 0, 1);
 }
 
@@ -18,10 +18,15 @@ body {
     color: rgb(244, 248, 255);
     font-size: calc(var(--index) * .8);
     /* font-family: 'Patrick Hand'; */
-    font-family: "Shantell Sans", cursive;
+    font-family: "Neucha";
     line-height: 1.75;
     height: var(--depth);
     font-weight: 300;
+    text-shadow: 
+        0 0 5px #0ff,
+        0 0 10px #0ff,
+        0 0 20px #0ff,
+        0 0 40px #0ff;
 }
 
 
@@ -59,7 +64,7 @@ body {
 }
 h1, h2, h3, h4 {
     font-weight: 100;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 .frame h2 {
     text-align: center;
@@ -93,5 +98,4 @@ h1, h2, h3, h4 {
 }
 .soundbutton.paused {
     opacity: .3;
-
 }
