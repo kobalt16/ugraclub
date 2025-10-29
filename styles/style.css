@@ -23,10 +23,10 @@ body {
     height: var(--depth);
     font-weight: 300;
     text-shadow: 
-        0 0 5px #0ff,
-        0 0 10px #0ff,
-        0 0 20px #0ff,
-        0 0 40px #0ff;
+        0 0 5px #e00a18,
+        0 0 10px #e00a18,
+        0 0 20px #e00a18,
+        0 0 40px #e00a18;
 }
 
 
@@ -99,3 +99,4 @@ h1, h2, h3, h4 {
 .soundbutton.paused {
     opacity: .3;
 }
+
